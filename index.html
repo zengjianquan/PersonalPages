@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=fd55c0a19aed434a1b21b15f233a66de&plugin=AMap.DistrictSearch,AMap.Heatmap"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="setcss.js"></script>
+    <script type="text/javascript" src="event.js"></script>
+    <script type="text/javascript" src="games.js"></script>
+    <script type="text/javascript" src="echarts_js/echarts.js"></script>
+    <script type="text/javascript" src="echarts_js/echarts.min.js"></script>
+    <script type="text/javascript" src="addMap.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>个人主页</title>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="#"><img src="img/ZJQ.jpg" id="zengjianquan"></a>
+        <a href="#" class="fonthighlight">个人简介</a>
+        <a href="#">研究课题</a>
+        <a href="#">解决方案</a>
+        <a href="#">联系方式</a>
+    </div>
+    <div class="introduce">
+        <img src="img/ZJQ2.png" id="zengjianquan2">
+        <div class="information">
+            <h1>个人信息:</h1>
+            <h2>姓名：曾建全</h2>
+            <h2>住所：风槐斋502</h2>
+            <h2>来自：广州的重庆人</h2>
+            <h2>学号：2017104029</h2>
+        </div>
+        <div class="hobby">
+            <h1>兴趣爱好：</h1>
+            <h2>打游戏:</h2>
+            <img src="img/LOL.png">
+            <img src="img/caixukun.jpg">
+            <br><br><br><br>
+            <h2>踢足球:</h2>
+            <img src="img/football.jpg">
+        </div>
+    </div>
+    <div class="course hide">
+        <div id="container" style="width: 800px;height: 800px;border: 5px solid black;"></div>
+        <div id="main" style="width: 355px;height:400px;"></div>
+        <img src="img/shizhong.png" alt="" id="shizhong">
+        <h1>海口市2017年520乘车到达地，并根据观察热力图提供可行的出行方案</h1>
+    </div>
+    <div class="games hide">
+        <div id="games">
+            <img src="img/jieni4.png" alt="" id="jieni">
+            <a href="#"><img src="img/chonga.png" alt="" id='chonga'></a>
+        </div>
+        <div id="difficult" style="position: absolute;">
+            <img src="img/jieni6.jpg">
+        </div>
+        <img src="img/jinglingqiu.jpg" alt="" id="jinglingqiu">
+        <h1 style="position: absolute;left: 850px;">不如在家打游戏</h1>
+        <a href="#" id="return"></a>
+        <img src="img/0.png" class="score" style="position: absolute; left: 850px; top: 400px; width: 100px;">
+        <img src="img/0.png" class="score"" style="position: absolute; left: 960px; top: 400px; width: 100px;">
+        <img src="img/dian.png" class="score" id="dian" style="position: absolute; left: 1070px; top: 535px; width: 30px;">
+        <img src="img/0.png" class="score" style="position: absolute; left: 1110px; top: 400px; width: 100px;">
+        <img src="img/0.png" class="score" style="position: absolute; left: 1220px; top: 400px; width: 100px;">
+    </div>
+    <div class="call hide">
+        <h1>QQ：123456789</h1>
+        <h1>手机号码:987654321</h1>
+        <h1>微信号：同手机</h1>
+    </div>
+</body>
+
+</html>
